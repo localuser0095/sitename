@@ -1,17 +1,76 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Our Company</title>
-  </head>
-  <body>
-    <h1>Welcome to Our Company</h1>
- <h3>Web Site Main Ingredients:</h3>
+<html>
+<head>
+<style>
+  *{
+    background-color: #333;
+  }
+h2{
+  color: wheat;
+  }
 
- <p>Pages (HTML)</p>
- <p>Style Sheets (CSS)</p>
- <p>Computer Code (JavaScript)</p>
- <p>Live Data (Files and Databases)</p>
+p{
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-  </body>
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+footer{
+  text-align: center;
+  color: antiquewhite;
+  background-color: gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  position: fixed;
+   bottom: 0;
+   width: 100%;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<div class="container">
+  <h2>This is our companys official website where we will tell you more about how to build a website with given parameters:</h2>
+  <br>
+  <p>
+  1) HTML [for skeleton of webiste]  <br>
+
+  2) CSS [for design of webiste]  <br>
+
+  3) JS [for making webiste interactive]  <br>
+</p>
+</div>
+<footer>Copyright &copy; our company 2022, All rights reserved </footer>
+</body>
 </html>
+
+
+
